@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ツアー行程表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .itinerary {
+            list-style: none;
+            padding: 0;
+        }
+        .itinerary li {
+            background: #e0f7fa;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #00796b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ツアー行程表</h1>
+        <h2>1日目</h2>
+        <ul class="itinerary">
+            <li><strong>10:00</strong> 集合（東京駅）</li>
+            <li><strong>11:30</strong> 観光地A訪問</li>
+            <li><strong>13:00</strong> 昼食（地元レストラン）</li>
+            <li><strong>15:00</strong> 観光地B散策</li>
+            <li><strong>18:00</strong> ホテルチェックイン・自由時間</li>
+        </ul>
+        <h2>2日目</h2>
+        <ul class="itinerary">
+            <li><strong>08:00</strong> 朝食</li>
+            <li><strong>09:30</strong> 観光地C見学</li>
+            <li><strong>12:00</strong> 昼食（フリータイム）</li>
+            <li><strong>14:00</strong> お土産ショッピング</li>
+            <li><strong>16:00</strong> 解散（東京駅）</li>
+        </ul>
+    </div>
+</body>
+</html>

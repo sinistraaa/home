@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.itinerary {
+    list-style: none;
+    padding: 0;
+}
+
+.itinerary li {
+    background: #e0f7fa;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #00796b;
+}

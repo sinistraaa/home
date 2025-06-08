@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  padding: 16px;
+  background-color: #fefefe;
+  color: #333;
+}
+
+h1 {
+  color: #006688;
+  font-size: 1.6em;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+li {
+  margin: 5px 0;
+}

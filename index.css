@@ -6,8 +6,13 @@ body {
 }
 
 h1 {
+  background-color: #f0f0f0;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  border-radius: 5px;
   color: #006688;
   font-size: 1.6em;
+  border-bottom: 2px solid #006688
 }
 
 .section {
@@ -21,3 +26,4 @@ ul {
 li {
   margin: 5px 0;
 }
+
